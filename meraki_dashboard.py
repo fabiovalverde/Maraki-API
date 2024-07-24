@@ -36,10 +36,10 @@ def get_meraki_devices(api_key, organization_id):
         print(f"Request error: {response.status_code}, {response.text}")
 
 if __name__ == '__main__':
-    api_key = config('API_KEY')  # Replace with your API key
+    api_key = config('API_KEY')  # Replace your API key in .env
     organizations = get_meraki_organizations(api_key)
 
     if organizations:
-        # Select the organization you want (e.g. the first)
-        organization_id = organizations[1]['id']  # You can change this as needed (e.g. 0 or 1)
+        # Select the organization you want (e.g. the first = 0)
+        organization_id = organizations[0]['id']  # You can change this as needed (e.g. 0 or 1)
         get_meraki_devices(api_key, organization_id)
