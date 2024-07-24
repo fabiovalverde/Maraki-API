@@ -20,7 +20,7 @@ This script displays information for each device, including the serial number, m
 
 ## Demonstration
 
-ID: 1, Name: Org 0
+ID: 1, Name: Org 0 (organizations[0] block)
 
 ID: 2, Name: Org 1
 
