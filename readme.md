@@ -18,23 +18,23 @@ In the `if __name__ == '__main__'` block, the script gets the list of organizati
 This script displays information for each device, including the serial number, model and name (if available). Make sure to replace your Meraki API key.
 
 
-## Demonstração
+## Demonstration
 
 ID: 1, Name: Org1
+
 ID: 2, Name: Org2
+
 ID: 3, Name: Org3
+
 Serial: Q2KX, Model: MRXX, Name: AP1
+
 Serial: Q2KX, Model: MRXX, Name: AP2
+
 Serial: Q2KX, Model: MRXX, Name: AP3
+
 Serial: Q2KX, Model: MRXX, Name: AP4
+
 Serial: Q2KX, Model: MRXX, Name: AP5
-Serial: Q2KX, Model: MRXX, Name: AP6
-Serial: Q2KX, Model: MRXX, Name: AP7
-Serial: Q2KX, Model: MRXX, Name: AP8
-Serial: Q2KX, Model: MRXX, Name: AP9
-Serial: Q2KX, Model: MRXX, Name: AP10
-Serial: Q2KX, Model: MRXX, Name: AP11
-Serial: Q2KX, Model: MRXX, Name: AP12
 
 
 ## Author
