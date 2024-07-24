@@ -16,7 +16,7 @@ def get_meraki_organizations(api_key):
             print(f"ID: {org['id']}, Name: {org['name']}")
         return organizations
     else:
-        print(f"Erro na requisição: {response.status_code}, {response.text}")
+        print(f"Request error: {response.status_code}, {response.text}")
         return None
 
 def get_meraki_devices(api_key, organization_id):
@@ -33,7 +33,7 @@ def get_meraki_devices(api_key, organization_id):
         for device in devices:
             print(f"Serial: {device['serial']}, Model: {device['model']}, Name: {device.get('name', 'N/A')}")
     else:
-        print(f"Erro na requisição: {response.status_code}, {response.text}")
+        print(f"Request error: {response.status_code}, {response.text}")
 
 if __name__ == '__main__':
     api_key = config('API_KEY')  # Replace with your API key
