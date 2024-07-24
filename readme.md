@@ -20,11 +20,11 @@ This script displays information for each device, including the serial number, m
 
 ## Demonstration
 
-ID: 1, Name: Org1
+ID: 1, Name: Org 0
 
-ID: 2, Name: Org2
+ID: 2, Name: Org 1
 
-ID: 3, Name: Org3
+ID: 3, Name: Org 2
 
 Serial: Q2KX, Model: MRXX, Name: AP1
 
